@@ -2,12 +2,14 @@
 import TheHelloWorld from '../components/TheHelloWorld.vue';
 import RectPrimary from '../components/buttons/RectPrimary.vue';
 import rocket_launch from '../components/icons/rocket_launch.vue';
+import PillSecondary from '../components/buttons/PillSecondary.vue';
 
 export default {
     components: {
         TheHelloWorld,
         RectPrimary,
         rocket_launch,
+        PillSecondary,
     },
 };
 </script>
@@ -21,5 +23,6 @@ export default {
             </template>
             Let's Bloo!
         </RectPrimary>
+        <PillSecondary class="m-auto mt-10" />
     </main>
 </template>

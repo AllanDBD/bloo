@@ -5,8 +5,6 @@
         >
             Hello Bloo!
         </h1>
-        <h2 class="text-2xl font-bold text-content-primaryLight m-auto italic">
-            The next gen ENT.
-        </h2>
+        <h2 class="text-2xl font-bold m-auto italic">The next gen ENT.</h2>
     </div>
 </template>
