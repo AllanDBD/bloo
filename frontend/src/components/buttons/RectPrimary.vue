@@ -11,17 +11,19 @@
     </template>
     Label
 </RectPrimary>
+
+
 -->
 
 <script></script>
 
 <template>
     <button
-        class="flex h-[36px] w-[256px] flex-row items-center gap-2 rounded-[8px] bg-foundation-primaryA p-3 text-sm font-medium text-content-primaryDark hover:bg-content-accent disabled:bg-background-disabled disabled:text-content-disabled"
+        class="text-sm font-medium flex h-[36px] w-[256px] flex-row items-center gap-2 rounded-[8px] p-3 text-content-primaryDark disabled:text-content-disabled bg-foundation-primaryA disabled:bg-background-disabled hover:bg-content-accent"
     >
         <div class="flex w-full flex-row items-center justify-center gap-2 p-0">
             <slot name="icon"></slot>
-            <span class="flex items-center text-center">
+            <span class="items-center text-center flex">
                 <slot></slot>
             </span>
         </div>
