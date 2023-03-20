@@ -19,11 +19,11 @@
 
 <template>
     <button
-        class="text-sm font-medium flex h-[36px] w-[256px] flex-row items-center gap-2 rounded-[8px] p-3 bg-transparent border-2 text-content-tertiaryLight dark:text-content-tertiaryDark border-content-tertiaryLight dark:border-content-tertiaryDark hover:border-border-opaqueLight dark:hover:border-border-opaqueDark disabled:text-content-disabled disabled:border-border-disabled"
+        class="flex h-[36px] w-[256px] flex-row items-center gap-2 rounded-[8px] border-2 border-content-tertiaryLight bg-transparent p-3 text-sm font-medium text-content-tertiaryLight hover:border-border-opaqueLight disabled:border-border-disabled disabled:text-content-disabled dark:border-content-tertiaryDark dark:text-content-tertiaryDark dark:hover:border-border-opaqueDark"
     >
         <div class="flex w-full flex-row items-center justify-center gap-2 p-0">
             <slot name="icon"></slot>
-            <span class="items-center text-center flex">
+            <span class="flex items-center text-center">
                 <slot></slot>
             </span>
         </div>
