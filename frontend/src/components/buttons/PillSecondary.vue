@@ -1,9 +1,17 @@
+<!--
+# Usage:
+<PillSecondary>
+    Label
+</PillSecondary>
+
+-->
+
 <template>
     <button
-        class="w-[61px] h-[36px] flex flex-col justify-center items-center bg-transparent hover:bg-content-accent hover:text-content-primaryDark border-2 border-border-accent rounded-full font-medium text-content-accent text-sm disabled:bg-border-disabled disabled:border-border-disabled disabled:text-border-opaqueLight"
+        class="flex h-[36px] w-[61px] flex-col items-center justify-center rounded-full border-2 border-border-accent bg-transparent text-sm font-medium text-content-accent hover:bg-content-accent hover:text-content-primaryDark disabled:border-border-disabled disabled:bg-border-disabled disabled:text-border-opaqueLight"
     >
         <div
-            class="flex flex-row justify-center items-center w-full h-full pt-1"
+            class="flex h-full w-full flex-row items-center justify-center pt-1"
         >
             <slot class="flex items-center text-center">Label</slot>
         </div>
