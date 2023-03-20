@@ -1,0 +1,24 @@
+<script>
+export default {
+    props: {
+        fill: {
+            type: String,
+            default: '#282828',
+        },
+    },
+};
+</script>
+<template>
+    <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M12.35 14.3L20 21.95L27.65 14.3L30 16.6667L20 26.6667L10 16.6667L12.35 14.3Z"
+            :fill="fill"
+        />
+    </svg>
+</template>
