@@ -62,6 +62,23 @@ module.exports = {
                 },
             },
         },
+        fontFamily: {
+            sans: ['Rubik', 'sans-serif', 'ui-sans-serif'],
+            mono: ['Monda', 'ui-monospace', 'sans-serif'],
+            display: ['Poppins', 'sans-serif', 'ui-sans-serif'],
+            body: ['Rubik', 'sans-serif', 'ui-sans-serif'],
+        },
+        fontSize: {
+            xs: ['12px', '20px'],
+            sm: ['14px', '24px'],
+            base: ['16px', '24px'],
+            lg: ['20px', '28px'],
+            xl: ['24px', '32px'],
+            '2xl': ['30px', '36px'],
+            '3xl': ['36px', '40px'],
+            '4xl': ['48px', '56px'],
+            '5xl': ['60px', '72px'],
+        },
     },
     plugins: [],
 };
