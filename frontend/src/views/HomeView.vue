@@ -3,6 +3,7 @@ import TheHelloWorld from '../components/TheHelloWorld.vue';
 import RectPrimary from '../components/buttons/RectPrimary.vue';
 import rocket_launch from '../components/icons/rocket_launch.vue';
 import PillSecondary from '../components/buttons/PillSecondary.vue';
+import Text from '../components/inputs/Text.vue';
 
 export default {
     components: {
@@ -10,6 +11,7 @@ export default {
         RectPrimary,
         rocket_launch,
         PillSecondary,
+        Text,
     },
 };
 </script>
