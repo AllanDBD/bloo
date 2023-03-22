@@ -4,6 +4,8 @@ import RectPrimary from '../components/buttons/RectPrimary.vue';
 import rocket_launch from '../components/icons/rocket_launch.vue';
 import PillSecondary from '../components/buttons/PillSecondary.vue';
 import Text from '../components/inputs/Text.vue';
+import Password from '../components/inputs/Password.vue';
+import eye from '../components/icons/eye.vue';
 
 export default {
     components: {
@@ -12,6 +14,8 @@ export default {
         rocket_launch,
         PillSecondary,
         Text,
+        Password,
+        eye,
     },
 };
 </script>
