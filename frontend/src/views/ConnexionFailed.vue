@@ -41,9 +41,9 @@ export default {
                 class="flex flex-col font-bold text-2xl text-foundation-primaryA font-display mt-8 items-center"
             >Bloo!</span>
         
-            <div class="flex flex-col items-center  h-[50px] w-[250px] bg-red-300 mt-6 m-auto">
+            <div class="flex flex-col items-center  h-[50px] w-[250px] bg-red-300 mt-6 m-auto dark:bg-red-400 ">
                 <span
-                    class="flex flex-col text-l text-foundation-negative font-display m-auto items-center"
+                    class="flex flex-col text-l text-foundation-negative font-display m-auto items-center dark:text-red-900"
                 >Wrong Password or ID</span>  
             </div>
 

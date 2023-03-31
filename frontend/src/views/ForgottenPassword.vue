@@ -36,7 +36,7 @@ export default {
             <div class="flex flex-col items-center h-[40px] w-[250px] bg-blue-300 mt-6 m-auto dark:bg-blue-400 ">
                 <span
                     class="flex flex-col text-l text-foundation-primaryB font-display m-auto items-center dark:text-blue-900"
-                >Forgotten ID</span>  
+                >Forgotten Password</span>  
             </div>
 
             <Text

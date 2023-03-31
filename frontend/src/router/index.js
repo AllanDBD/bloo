@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import LogIn from '../views/LogIn.vue';
 import CreateAccount from '../views/CreateAccount.vue';
 import ForgottenID from '../views/ForgottenID.vue';
+import ForgottenPassword from '../views/ForgottenPassword.vue';
 import ConnexionFailed from '../views/ConnexionFailed.vue';
 
 const router = createRouter({
@@ -11,7 +12,7 @@ const router = createRouter({
         {
             path: '/',
             name: 'home',
-            component: ConnexionFailed,
+            component: ForgottenID,
         },
     ],
 });

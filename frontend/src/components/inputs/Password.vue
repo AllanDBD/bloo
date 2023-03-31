@@ -32,7 +32,7 @@ export default {
             <input
                 v-model="msg"
                 v-bind:type="typeState"
-                class="flex flex-row items-center py-2 px-4 gap-4 w-[343px] h-[36px] bg-content-secondaryDark rounded-lg placeholder-content-tertiaryLight text-sm dark:bg-background-secondaryDark dark:placeholder-content-secondaryDark focus:outline-none focus:ring-2 focus:ring-foundation-primaryA focus:outline-foundation-primaryA"
+                class="flex flex-row items-center py-2 px-4 gap-4 w-[343px] h-[36px] bg-content-secondaryDark rounded-lg placeholder-content-tertiaryLight text-sm dark:bg-background-primaryDark dark:placeholder-content-secondaryDark focus:outline-none focus:ring-2 focus:ring-foundation-primaryA focus:outline-foundation-primaryA"
                 :placeholder=[[placeholder]]
             />
             <a href="#" @click.prevent="toggleState"
