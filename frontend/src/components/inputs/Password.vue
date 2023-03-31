@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div class="flex flex-col items-start py-0 px-4 gap-2 w-[375px] h-[96px]">
-        <span class="text-sm flex flex-col items-start h-6">Label</span>
+        <span class="text-sm flex flex-col items-start h-6">Password</span>
         <div class="flex flex-row">
             <input
                 v-model="msg"
@@ -37,6 +37,6 @@ export default {
                 ></eye
             ></a>
         </div>
-        <span class="h-5 text-xs">Hint</span>
+        <span class="h-5 text-xs"><u>Forgot my password</u></span>
     </div>
 </template>
