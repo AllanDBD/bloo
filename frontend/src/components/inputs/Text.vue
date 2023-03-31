@@ -16,6 +16,6 @@
             class="flex flex-row items-center py-2 px-4 gap-4 w-[343px] h-[36px] bg-content-secondaryDark rounded-lg placeholder-content-tertiaryLight text-sm dark:bg-background-secondaryDark dark:placeholder-content-secondaryDark focus:outline-foundation-primaryA focus:outline-none focus:ring-2 focus:ring-foundation-primaryA"
             :placeholder=[[placeholder]]
         />
-        <span class="h-5 text-xs"><u>{{ hint }}</u></span>
+        <a href="#"><span class="h-5 text-xs"><u>{{ hint }}</u></span></a>
     </div>
 </template>

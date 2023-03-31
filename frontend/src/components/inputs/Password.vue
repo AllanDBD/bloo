@@ -37,6 +37,6 @@ export default {
                 ></eye
             ></a>
         </div>
-        <span class="h-5 text-xs"><u>Forgot my password</u></span>
+        <a href="#"><span class="h-5 text-xs"><u>Forgot my password</u></span></a>
     </div>
 </template>
