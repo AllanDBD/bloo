@@ -1,12 +1,10 @@
 import Eye from '../icons/eye.vue';
 <script>
 import eye from '../icons/eye.vue';
-
 export default {
     components: {
         eye,
     },
-
     data() {
         return {
             typeState: 'password',
@@ -17,18 +15,23 @@ export default {
             this.typeState = this.typeState == 'password' ? 'text' : 'password';
         },
     },
+    props: {
+        label: String,
+        hint: String,
+        placeholder: String,
+    },
 };
 </script>
 
 <template>
     <div class="flex flex-col items-start py-0 px-4 gap-2 w-[375px] h-[96px]">
-        <span class="text-sm flex flex-col items-start h-6">Label</span>
+        <span class="text-sm flex flex-col items-start h-6">{{ label }}</span>
         <div class="flex flex-row">
             <input
                 v-model="msg"
                 v-bind:type="typeState"
-                class="flex flex-row items-center py-2 px-4 gap-4 w-[343px] h-[36px] bg-content-secondaryDark rounded-lg placeholder-content-tertiaryLight text-sm dark:bg-background-secondaryDark dark:placeholder-content-secondaryDark focus:outline-none focus:ring-2 focus:ring-foundation-primaryA focus:outline-foundation-primaryA"
-                placeholder="Password"
+                class="flex flex-row items-center py-2 px-4 gap-4 w-[343px] h-[36px] bg-content-secondaryDark rounded-lg placeholder-content-tertiaryLight text-sm dark:bg-background-primaryDark dark:placeholder-content-secondaryDark focus:outline-none focus:ring-2 focus:ring-foundation-primaryA focus:outline-foundation-primaryA"
+                :placeholder="[[placeholder]]"
             />
             <a href="#" @click.prevent="toggleState"
                 ><eye
@@ -37,6 +40,10 @@ export default {
                 ></eye
             ></a>
         </div>
-        <span class="h-5 text-xs">Hint</span>
+        <a href="#"
+            ><span class="h-5 text-xs"
+                ><u>{{ hint }}</u></span
+            ></a
+        >
     </div>
 </template>

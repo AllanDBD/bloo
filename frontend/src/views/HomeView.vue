@@ -23,12 +23,18 @@ export default {
 <template>
     <main class="flex flex-col">
         <TheHelloWorld />
-        <RectPrimary class="md:w-[512px] h-[46px] text-base m-auto mt-10">
-            <template v-slot:icon>
-                <rocket_launch fill="currentColor" width="20px" height="20px" />
-            </template>
-            Let's Bloo!
-        </RectPrimary>
+        <a href="LogIn.vue"
+            ><RectPrimary class="md:w-[512px] h-[46px] text-base m-auto mt-10">
+                <template v-slot:icon>
+                    <rocket_launch
+                        fill="currentColor"
+                        width="20px"
+                        height="20px"
+                    />
+                </template>
+                Let's Bloo!
+            </RectPrimary></a
+        >
         <PillSecondary class="m-auto mt-10" />
     </main>
 </template>
