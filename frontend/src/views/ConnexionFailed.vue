@@ -33,18 +33,20 @@ export default {
         class="flex flex-container bg-background-secondaryLight justify-center h-full dark:bg-background-primaryDark"
     >
         <div
-            class="bg-background-primaryLight h-[555px] mt-[150px] justify-center rounded-lg dark:bg-background-secondaryDark"
+            class="bg-background-primaryLight h-[555px] my-auto justify-center rounded-lg dark:bg-background-secondaryDark"
         >
-
-        
             <span
                 class="flex flex-col font-bold text-2xl text-foundation-primaryA font-display mt-8 items-center"
-            >Bloo!</span>
-        
-            <div class="flex flex-col items-center  h-[50px] w-[250px] bg-red-300 mt-6 m-auto dark:bg-red-400 ">
+                >Bloo!</span
+            >
+
+            <div
+                class="flex flex-col items-center h-[50px] w-[250px] bg-red-300 mt-6 m-auto dark:bg-red-400"
+            >
                 <span
                     class="flex flex-col text-l text-foundation-negative font-display m-auto items-center dark:text-red-900"
-                >Wrong Password or ID</span>  
+                    >Wrong Password or ID</span
+                >
             </div>
 
             <Text
@@ -52,11 +54,14 @@ export default {
                 class="flex flex-col mt-8"
                 :label="Label_ID"
                 :hint="Hint_ID"
-                :placeholder= "Placeholder_ID"
+                :placeholder="Placeholder_ID"
             ></Text>
-            <Password class="flex flex-col mt-[34px]" :label="Label_Password"
+            <Password
+                class="flex flex-col mt-[34px]"
+                :label="Label_Password"
                 :hint="Hint_Password"
-                :placeholder= "Placeholder_Password"></Password>
+                :placeholder="Placeholder_Password"
+            ></Password>
             <RectPrimary class="mt-10 m-auto">Login</RectPrimary>
             <RectSecondary class="mt-4 m-auto">Signup</RectSecondary>
         </div>
